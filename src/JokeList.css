@@ -1,0 +1,29 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+.loading {
+  width: 4em;
+  margin: 200px auto 0 auto;
+  color: tomato;
+}
+
+.JokeList-getmore, .JokeList-reset {
+  margin: 1em 0;
+  font-size: 150%;
+  border-radius: 0.5em;
+  color: white;
+}
+
+.JokeList-getmore{
+  background-color: green;
+}
+
+.JokeList-reset{
+  background-color: tomato;
+}
+
+.JokeList-getmore:disabled, .JokeList-reset:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
